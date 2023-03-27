@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(24, 26, 40);
+    color: rgb(167, 169, 208);
+}
+
+
+
+div#post {
+    background-color: rgb(31, 33, 53);
+    /* border: 1px solid white; */
+    height: 240px;
+    width: 600px;
+    margin: 250px auto;
+    padding: 40px;
+    display: flex;
+}
+
+/* USER IMAGE */
+section#image-sec {
+    /* border: 1px solid green; */
+    width: 20%;
+}
+
+section#image-sec > img {
+    /* border: 1px solid cadetblue; */
+    width: 70px;
+    height: 70px;
+    border-radius: 150px;
+    margin: 0 15%;
+    background-color: aliceblue;
+}
+
+section#image-sec > img:hover {
+    filter: invert();
+}
+
+/* POST AREA */
+section#post-sec {
+    /* border: 1px solid blue; */
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column;
+}
+
+/* Label */
+label {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Texting Area */
+input[type="text"] {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(187, 181, 181);
+    color: aliceblue;
+    font-size: 16px;
+    outline: none;
+}
+
+div#bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 3 img button */
+img.menu {
+    width: 25px;
+    height: 25px;
+}
+
+img.menu:hover {
+    filter: invert();
+}
+
+div#buttons {
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    border: 0;
+    background-color: rgb(66, 124, 215);
+    border: 1px solid rgba(245, 222, 179, 0);
+    color: rgba(242, 249, 255, 0.906);
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background-color: transparent;
+    border: 1px solid rgb(66, 124, 215);
+    color: rgb(45, 110, 216);
+}
+
